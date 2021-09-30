@@ -20,6 +20,8 @@ font-family: 'Sora', sans-serif; */
     width: 100%;
     object-fit: cover;
     mix-blend-mode: lighten;
+    animation: movie-start 1s ease forwards;
+    opacity: 0;
 }
 
 .hero video {
@@ -29,4 +31,15 @@ font-family: 'Sora', sans-serif; */
     height: 100%;
     width: 100%;
     object-fit: cover;
+    animation: movie-start 2s ease 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes movie-start {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
