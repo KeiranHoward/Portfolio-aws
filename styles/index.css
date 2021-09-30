@@ -6,6 +6,36 @@
 font-family: 'JetBrains Mono', monospace;
 font-family: 'Sora', sans-serif; */
 
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.navlink {
+    
+    color: black;
+    font-size: 2em;
+    width: 10vw;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: black;
+}
 .hero {
     min-height: 100vh;
     position: relative;
@@ -34,7 +64,23 @@ font-family: 'Sora', sans-serif; */
     animation: movie-start 2s ease 0.5s forwards;
     opacity: 0;
 }
+.hero h1 {
+    height: 100%;
+    width: 100%;
+    animation: movie-start 4s ease 0.5s forwards;
+    opacity: 0;
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-family: 'JetBrains Mono';
+    text-align: left;
+    font-size: 4em;
+    font-weight: 100;
+    top: 60%;
+    left: 2%;
+    letter-spacing: 1.5rem;
 
+}
 @keyframes movie-start {
     from {
         opacity: 0;
