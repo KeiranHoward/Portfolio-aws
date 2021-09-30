@@ -6,3 +6,11 @@
 font-family: 'JetBrains Mono', monospace;
 font-family: 'Sora', sans-serif; */
 
+.hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+.hero img {
+    position: absolute;
+}
