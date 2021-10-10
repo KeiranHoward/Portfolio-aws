@@ -34,36 +34,14 @@
 
 header{
     width: 100%;
-    height: 10vh;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
-}
-
-.topnav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 10vh;
-}
-
-.navlink {
     
-    color: black;
-    font-size: 1.5em;
-    width: 10vw;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 2%;
 }
 
-.navlink a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Neue Metana Regular';
-    font-weight: 700;
-}
+
+
+
 .hero {
     min-height: 100vh;
     position: relative;
