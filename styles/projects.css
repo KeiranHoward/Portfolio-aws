@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'neutralface';
+  src:
+    url('./assets/fonts/neutralface-webfont.ttf') format('truetype'),
+    url('./assets/fonts/neutralface-webfont.woff2') format('woff2'),
+    url('./assets/fonts/neutralface-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Neuemetana';
+  src:
+    url('./assets/fonts/neuemetana-regular-webfont.ttf') format('truetype'),
+    url('./assets/fonts/neuemetana-regular-webfont.woff2') format('woff2'),
+    url('./assets/fonts/neuemetana-regular-webfont.woff') format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
