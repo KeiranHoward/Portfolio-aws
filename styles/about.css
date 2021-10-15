@@ -86,6 +86,86 @@
   font-weight: 600;
 }
 
+/* nav start */
+aside {
+  height: 100vh;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+aside .logo {
+
+  height: 80px;
+  background-color: #ee5454;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-family: 'neuemetana';
+  display: none;
+}
+
+aside nav {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  padding: 4em 0;
+  box-sizing: border-box;
+}
+
+aside nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+aside nav ul li {
+  color: black;
+  list-style: none;
+  position: relative;
+}
+
+aside nav ul li .scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside nav ul .scroll li:nth-child(2) {
+  border-left: 1px solid rgba(71, 64, 64, 0.5);
+  height: 120px;
+  top: 10px;
+  left: 13px;
+}
+
+aside nav ul .scroll li:last-child {
+  font-family: 'Poppins';
+  font-size: .7em;
+  transform: rotate(-90deg);
+  top: 60px;
+}
+
+/* nav end */
+
+/* socials start */
+aside nav ul .socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside nav ul .socials li {
+  margin-top: 50px;
+}
+
+aside nav ul .socials li a {
+  color: black;
+}
+
+/* social end */
+/* about start */
 @keyframes movie-start {
   from {
     opacity: 0;
