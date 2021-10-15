@@ -1,10 +1,9 @@
-
 @font-face {
     font-family: 'neutralface';
-    src: 
-    url('./assets/fonts/neutralface-webfont.ttf') format('truetype'),
-    url('./assets/fonts/neutralface-webfont.woff2') format('woff2'),
-    url('./assets/fonts/neutralface-webfont.woff') format('woff');
+    src:
+        url('./assets/fonts/neutralface-webfont.ttf') format('truetype'),
+        url('./assets/fonts/neutralface-webfont.woff2') format('woff2'),
+        url('./assets/fonts/neutralface-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,11 +14,11 @@
 
 @font-face {
     font-family: 'Neuemetana';
-    src: 
-    url('./assets/fonts/neuemetana-regular-webfont.ttf') format('truetype'),
-    url('./assets/fonts/neuemetana-regular-webfont.woff2') format('woff2'),
-    url('./assets/fonts/neuemetana-regular-webfont.woff') format('woff');
-         
+    src:
+        url('./assets/fonts/neuemetana-regular-webfont.ttf') format('truetype'),
+        url('./assets/fonts/neuemetana-regular-webfont.woff2') format('woff2'),
+        url('./assets/fonts/neuemetana-regular-webfont.woff') format('woff');
+
     font-weight: normal;
     font-style: normal;
 
@@ -28,15 +27,18 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    
+
 }
 
 
-header{
+
+header {
     width: 100%;
     height: 100vh;
     display: flex;
 }
+
+
 
 /* nav start */
 aside {
@@ -44,17 +46,22 @@ aside {
     width: 80px;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
+
 aside .logo {
-    visibility: hidden;
+
     height: 80px;
     background-color: #ee5454;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3em;
-  }
-aside nav{
+    font-family: 'neuemetana';
+
+}
+
+aside nav {
     display: flex;
     justify-content: center;
     height: 1000px;
@@ -85,7 +92,7 @@ aside nav ul .scroll li:nth-child(2) {
     height: 120px;
     top: 10px;
     left: 13px;
-  }
+}
 
 aside nav ul .scroll li:last-child {
     font-family: 'Poppins';
@@ -93,6 +100,7 @@ aside nav ul .scroll li:last-child {
     transform: rotate(-90deg);
     top: 60px;
 }
+
 /* nav end */
 
 /* socials start */
@@ -100,13 +108,13 @@ aside nav ul .socials {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  aside nav ul .socials li{
-      margin-top: 50px;
-  }
+aside nav ul .socials li {
+    margin-top: 50px;
+}
 
-  aside nav ul .socials li a{
+aside nav ul .socials li a {
     color: black;
 }
 
@@ -141,6 +149,7 @@ aside nav ul .socials {
     animation: movie-start 2s ease 0.5s forwards;
     opacity: 0;
 }
+
 .hero h1 {
     height: 100%;
     width: 100%;
@@ -155,13 +164,25 @@ aside nav ul .socials {
     font-weight: 400;
     top: 60%;
     left: 2%;
-   
+
 
 }
+
+.aboutme {
+    height: 100vh;
+    width: 100vw;
+}
+
+.aboutme h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
 @keyframes movie-start {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
