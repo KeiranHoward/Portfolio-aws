@@ -28,3 +28,114 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #242424;
+}
+
+.head {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  min-height: 150px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.head ul {
+  list-style: none;
+  display: flex;
+  width: 80vw;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.top-logo img {
+  height: 70px;
+  width: 70px;
+
+}
+
+.li {
+  font-family: "neutral face";
+  font-size: 1.5rem;
+  color: white;
+
+  z-index: 3;
+}
+
+.head a {
+  text-decoration: none;
+
+  color: white;
+  font-family: "neutral face";
+}
+
+/* socials start */
+ul .socials {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ee5454;
+  z-index: 3;
+}
+
+.socials li {
+  margin-top: 50px;
+}
+
+.socials li a {
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 100vh;
+  z-index: 5;
+}
+
+.socials li {
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.socials li a {
+  color: white;
+  height: 200px;
+  width: 100px;
+  font-size: 2rem;
+
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+  background-color: red;
+  grid-area: auto;
+}
+
+.card {}
