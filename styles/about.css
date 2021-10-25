@@ -186,20 +186,41 @@ ul .socials {
 .aboutme-title {
   display: flex;
   width: 100vw;
-  height: 300px;
+  height: 200px;
   text-align: center;
-  background-color: #ee5454;
-
+  margin-bottom: 100px;
 }
 
 .aboutme-title h1 {
   width: 100vw;
   height: 300px;
   margin-top: 100px;
-  font-size: 4rem;
-  font-family: "neue metana";
-  font-weight: bold;
+  font-size: 2rem;
+  font-family: "neutral face";
+  font-weight: 800;
   letter-spacing: 10px;
+
+}
+
+.about-content {
+  position: relative;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.about-content p {
+  position: relative;
+  font-family: "monospace";
+  font-size: 2rem;
+  margin-bottom: 50px;
+  width: 50%;
+
 }
 
 /* social end */
