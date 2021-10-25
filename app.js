@@ -17,13 +17,13 @@ gsap.to(".socials", {
 
 $(document).ready(function () {
   $(".animsition").animsition({
-    inClass: 'fade-in-right',
-    outClass: 'fade-out-right',
+    inClass: 'zoom-in-sm',
+    outClass: 'zoom-out-sm',
     inDuration: 1500,
     outDuration: 800,
     linkElement: '.animsition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-    loading: true,
+    loading: false,
     loadingParentElement: 'body', //animsition wrapper element
     loadingClass: 'animsition-loading',
     loadingInner: '', // e.g '<img src="loading.svg" />'
