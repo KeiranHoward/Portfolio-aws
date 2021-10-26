@@ -149,6 +149,7 @@ ul .socials {
 
 .socials li a {
   color: black;
+  cursor: pointer;
 }
 
 .socials {
@@ -180,7 +181,7 @@ ul .socials {
 .intro {
   width: 100vw;
   height: 100vh;
-
+  position: relative;
 }
 
 .aboutme-title {
