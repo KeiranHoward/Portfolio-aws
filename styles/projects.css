@@ -189,7 +189,7 @@ ul .socials {
   margin: 50px;
   background-color: transparent;
   perspective: 1000px;
-  width: 400px;
+  width: 700px;
   height: 500px;
   border-radius: 15px;
   box-shadow: rgba(49, 49, 49, 0.25) 0px 30px 60px -12px inset,
@@ -200,6 +200,8 @@ ul .socials {
 .flip-card img {
   border: 1px solid transparent;
   border-radius: 15px;
+  background-image: url('/assets/img/portfolioimg.png');
+
 }
 
 .flip-card-inner {
@@ -209,8 +211,8 @@ ul .socials {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  width: 400px;
-  height: 500px;
+  max-width: 700px;
+  max-height: 800px;
   border: 1px solid rgba(255, 255, 255, 0.034);
   border-radius: 15px;
 
@@ -218,7 +220,7 @@ ul .socials {
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-  background-image: url(" https://via.placeholder.com/400");
+
 }
 
 .flip-card-front,
@@ -230,8 +232,6 @@ ul .socials {
   /* Safari */
   backface-visibility: hidden;
   padding: 30px;
-
-
 }
 
 /* Style the back side */
@@ -239,5 +239,41 @@ ul .socials {
   background-color: transparent;
   color: white;
   transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
 
+.flip-card-back h1 {
+  font-size: 2em;
+}
+
+.flip-card-back p {
+  font-size: 2em;
+}
+
+.flip-card-back form {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 50px;
+
+}
+
+.flip-card-back form button {
+  min-height: 50px;
+  width: 60%;
+  color: white;
+  background-color: #888888;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.034);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: rgba(49, 49, 49, 0.25) 0px 30px 60px -12px inset,
+    rgba(46, 45, 45, 0.3) 0px 18px 36px -18px inset;
+}
+
+.flip-card-back form button:hover {
+  cursor: pointer;
 }
